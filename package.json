@@ -1,0 +1,17 @@
+{
+  "name": "php-73-docker",
+  "version": "1.0.0",
+  "description": "PHP 73 DOCKER container",
+  "main": "bin/setup.js",
+  "repository": "https://github.com/bugzbrown/php-73-docker.git",
+  "author": "Gregory Brown <bugzbrown@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "setup": "node bin/setup.js"
+  },
+  "devDependencies": {
+    "chalk": "^3.0.0",
+    "clear": "^0.1.0",
+    "inquirer": "^7.0.4"
+  }
+}

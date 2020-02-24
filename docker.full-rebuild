@@ -1,0 +1,3 @@
+#!/bin/bash
+docker-compose build --nocache --force-rm --pull
+sudo rm -Rf data/mysql
