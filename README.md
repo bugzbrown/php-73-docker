@@ -2,12 +2,15 @@
 
 This is a starter repository for a simple docker compose that creates a LAMP Stack for local development.
 
-It is based on this repository: https://github.com/sprintcube/docker-compose-lamp.git
+> **THIS IS CURRENTLY UNDER DEVELOPMENT AND WILL NOT WORK**
+
+It is based on this repository: https://github.com/sprintcube/docker-compose-lamp.git and adjusted to suit my workflow and organization for local projects.
 
 ## REQUIREMENTS
 
     - nodejs 10+
     - docker
+
 
 ## How to and Why
 
