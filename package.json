@@ -7,7 +7,10 @@
   "author": "Gregory Brown <bugzbrown@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "setup": "node bin/setup.js"
+    "setup": "node bin/setup.js",
+    "boot:watch": "docker-compose up",
+    "boot": "docker-compose up -d",
+    "shutdown": "docker-compose down"
   },
   "devDependencies": {
     "chalk": "^3.0.0",
