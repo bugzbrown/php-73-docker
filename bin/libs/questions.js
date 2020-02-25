@@ -41,7 +41,7 @@ module.exports = {
         ];
         return inquirer.prompt(q);
     },
-    advanced: () => {
+    askPorts: () => {
         const q = [
             {
                 name: 'apache_port',
